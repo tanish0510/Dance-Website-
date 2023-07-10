@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 19px 58px;
+    font-size: 20px;
+}
+
+#navbar li a:hover {
+    color: rgb(12, 219, 133);
+    font-weight: bold;
+}
+
+#introSection {
+    color: rgb(213 75 75);
+    background: center/cover no-repeat url("/static/bg.jpeg");
+    opacity: 0.8;
+    height: 523px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: color( rgb(201, 77, 77) rgb(109, 164, 109) rgb(35, 35, 55));
+}
+
+#introSection div:hover {
+    font-weight: bold;
+    color: rgb(165, 126, 42);
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin: 0px 14px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: black;
+    font-family: 'Yeon Sung';
+    padding: 13px, 14px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 100px;
+    padding: 0px 14px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+#missionSection {
+    /* height: 25px; */
+    background-color: aliceblue;
+    height: 110%;
+}
+
+#missionSection h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    /* color: blueviolet; */
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 22px 151px;
+    height: 200px;
+}
+
+p {
+    margin: 22px 14px;
+    color: brown;
+}
+
+.card-content p {
+    color: brown;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+
+#footer {
+    background-color: black;
+    height: 100px;
+}
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 23px;
+    padding-top: 10px;
+}
+
+#missionSection h2 {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sponsors {
+    height: 80%;
+    max-width: 1000;
+    margin: auto;
+}
+
+.spimage {
+    height: 47%;
+    margin: 59px;
+}
+
+#footer {
+    color: white;
+    /* text-align: center; */
+}

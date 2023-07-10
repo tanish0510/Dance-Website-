@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head 
+    style 
+       include ../static/style.css
+  body
+    nav#navbar
+        ul
+         div#logo
+            img(src="/static/images/logo.png") 
+            | TDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact] 
+            li #[a(href="/") Services]
+            
+            
+
+    section#introSection
+        div Welcome to Tanish's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+
+            div.card 
+             p Dance Perfection 
+             div.card-box
+                div.card-img
+                    img(src="/static/images/img1.png")
+                div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum molestias id.
+            div.card 
+             p Dance The way you like
+              div.card-box
+                div.card-img
+                    img(src="/static/images/img2.png")
+                div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum molestias id.
+            div.card 
+             p Expert Teaching
+              div.card-box
+                div.card-img
+                    img(src="/static/images/img3.jpeg")
+                div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit earum molestias id.
+
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/images/logo1.png" ,alt="sponsor image" , class="spimage")
+            img(src="/static/images/logo4.png" ,alt="sponsor image" , class="spimage")
+            img(src="/static/images/logo5.png" ,alt="sponsor image" , class="spimage")
+            img(src="/static/images/slogo4.png" ,altlass="spimage")
+
+           
+
+    footer#footer
+       h2 | Copywrite @2023 tanishdance.com.  |  All Rights reserved
+    include ../static/index.js 
